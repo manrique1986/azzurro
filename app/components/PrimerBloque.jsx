@@ -21,7 +21,7 @@ const FirstBlock = () => {
         </div>
   
         {/* Párrafo explicativo */}
-        <p className="text-center text-base sm:text-lg lg:text-xl text-[#121212] mx-auto leading-relaxed">
+        <p className="text-center text-base sm:text-lg lg:text-xl text-[#1B3A4B] mx-auto leading-relaxed">
   En Azzurro, diseñamos estrategias personalizadas para optimizar tus ventas,<br />
   fidelizar a tus clientes y transformar cada interacción en una experiencia<br />
   inolvidable. Fusionamos innovación tecnológica y calidez humana para crear<br />
@@ -33,7 +33,7 @@ const FirstBlock = () => {
         <a
           href="https://wa.me/+543585411552"
            target="_blank"
-          className="mt-6 w-full sm:w-[300px] md:w-[400px] lg:w-[900px] h-[45px] bg-[#B0846A] text-[#FDFCFB] text-lg font-semibold rounded-xl flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
+          className="mt-6 w-full sm:w-[300px] md:w-[400px] lg:w-[900px] h-[45px] bg-[#1B3A4B] text-[#FDFCFB] text-lg font-semibold rounded-xl flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
         >
         Descubre cómo transformar tu negocio en una experiencia inolvidable.
         </a>

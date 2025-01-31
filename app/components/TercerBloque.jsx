@@ -22,7 +22,7 @@ const FourthBlock = () => {
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#121212]">
             @OCTAVIO
             </h2>
-            <p className="text-lg sm:text-xl lg:text-2xl text-[#FDFCFB] w-full sm:w-200">
+            <p className="text-lg sm:text-xl lg:text-2xl text-[#1B3A4B] w-full sm:w-200">
             Ayudamos a este editor de video a conectar con su nicho gracias a una oferta sólida, sin depender de redes sociales.
             </p>
   
@@ -30,7 +30,7 @@ const FourthBlock = () => {
             <div className="flex justify-start">
               <a
                 href="/page3"
-                className="w-full sm:w-[300px] lg:w-[600px] h-[40px] sm:h-[50px] bg-[#B0846A] text-[#FDFCFB] text-sm sm:text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
+                className="w-full sm:w-[300px] lg:w-[600px] h-[40px] sm:h-[50px] bg-[#1B3A4B] text-[#FDFCFB] text-sm sm:text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
               >
              Conoce cómo destacó sin depender de redes.
               </a>
@@ -59,7 +59,7 @@ const FourthBlock = () => {
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#121212]">
             @HECTOR
             </h2>
-            <p className="text-lg sm:text-xl lg:text-2xl text-[#FDFCFB] w-full sm:w-200">
+            <p className="text-lg sm:text-xl lg:text-2xl text-[#1B3A4B] w-full sm:w-200">
             Estamos orgullosos de Héctor, parte esencial del equipo, a quien ayudamos a crecer profesional y estratégicamente, impulsando su impacto en cada proyecto.
             </p>
   
@@ -67,7 +67,7 @@ const FourthBlock = () => {
             <div className="flex justify-start">
               <a
                 href="/page4"
-                className="w-full sm:w-[350px] lg:w-[600px] h-[40px] sm:h-[50px] bg-[#B0846A] text-[#FDFCFB] text-sm sm:text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
+                className="w-full sm:w-[350px] lg:w-[600px] h-[40px] sm:h-[50px] bg-[#1B3A4B] text-[#FDFCFB] text-sm sm:text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
               >
              Descubre el camino de su evolución profesional.
               </a>
