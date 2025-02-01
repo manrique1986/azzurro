@@ -4,7 +4,7 @@ const QuintoBloque = () => {
     <div className="w-full  flex justify-center items-center">
         <div className=" text-center ">
           {/* Título */}
-          <h2 className="text-xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#1B3A4B]  whitespace-nowrap">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#1B3A4B]  whitespace-nowrap">
           Personalizá tu GPT
           </h2>
   

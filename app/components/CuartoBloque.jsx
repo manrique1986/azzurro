@@ -32,7 +32,7 @@ const CuartoBloque = () => {
         <div className="flex justify-start">
           <a
             href="/page3"
-            className="w-full sm:w-[300px] lg:w-[600px] h-[40px] sm:h-[50px] bg-[#B0846A] text-[#FDFCFB] text-lg sm:text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
+            className="w-full sm:w-[300px] lg:w-[600px] h-[55px] sm:h-[50px] text-center bg-[#B0846A] text-[#FDFCFB] text-lg sm:text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
           >
          Conoce cómo destacó sin depender de redes.
           </a>
@@ -69,7 +69,7 @@ const CuartoBloque = () => {
         <div className="flex justify-start">
           <a
             href="/page4"
-            className="w-full sm:w-[350px] lg:w-[600px] h-[40px] sm:h-[50px] bg-[#B0846A] text-[#FDFCFB] text-lg sm:text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
+            className="w-full sm:w-[350px] lg:w-[600px] text-center h-[55px] sm:h-[50px] bg-[#B0846A] text-[#FDFCFB] text-lg sm:text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
           >
          Descubre el camino de su evolución profesional.
           </a>
