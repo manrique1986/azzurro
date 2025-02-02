@@ -8,7 +8,7 @@ const Testimonials = () => {
             <div className="flex items-center mb-4">
               <img
                 className="w-16 h-16 rounded-full object-cover mr-4"
-                // src="https://randomuser.me/api/portraits/men/1.jpg"
+                 src="https://res.cloudinary.com/dytpump6i/image/upload/v1738465898/Lucas_iqx7bn.jpg"
                 alt="Lucas"
               />
               <div>
@@ -26,7 +26,7 @@ const Testimonials = () => {
             <div className="flex items-center mb-4">
               <img
                 className="w-16 h-16 rounded-full object-cover mr-4"
-                // src="https://randomuser.me/api/portraits/men/2.jpg"
+                 src="https://res.cloudinary.com/dytpump6i/image/upload/v1738465978/Juan_cruz_xowzov.jpg"
                 alt="Juan Cruz"
               />
               <div>
@@ -44,7 +44,7 @@ const Testimonials = () => {
             <div className="flex items-center mb-4">
               <img
                 className="w-16 h-16 rounded-full object-cover mr-4"
-                // src="https://randomuser.me/api/portraits/men/3.jpg"
+                 src="https://res.cloudinary.com/dytpump6i/image/upload/v1738466027/Ernesto_yojorl.jpg"
                 alt="Ernesto"
               />
               <div>

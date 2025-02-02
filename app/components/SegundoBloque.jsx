@@ -58,18 +58,24 @@ const ThirdBlock = () => {
 
         {/* Video a la derecha */}
         <div className="w-full h-[200px] sm:h-[300px] md:h-[356.5px] px-4 md:px-8">
-          <div className="relative w-full h-full">
-            <iframe
-              // className="w-full h-full rounded-lg"
-              // src=""
-              
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
+  <div className="relative w-full h-full">
+    {/* Imagen que cubre todo el contenedor */}
+    <img
+      className="w-full h-full  rounded-lg"
+      src="https://res.cloudinary.com/dytpump6i/image/upload/v1738466365/Disen%CC%83o_sin_ti%CC%81tulo_15_wsvquz.png" // Reemplaza con tu URL
+      alt="Imagen personalizada"
+    />
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
       </div>
     </div>
   );
