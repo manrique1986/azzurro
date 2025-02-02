@@ -28,7 +28,8 @@ const ThirdBlock = () => {
 
   {/* Botón debajo del texto */}
   <Link
-    href="/page1"
+    href="https://calendly.com/agenciafbb/30min?month=2025-02"
+         target="_blank"
     className="w-full max-w-[400px] h-[45px] bg-[#B0846A] text-[#FDFCFB] text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
   >
     Conoce cómo optimizamos su conexión.
@@ -48,7 +49,8 @@ const ThirdBlock = () => {
 
   {/* Botón debajo del texto */}
   <a
-    href="/page2"
+    href="https://calendly.com/agenciafbb/30min?month=2025-02"
+         target="_blank"
     className="w-full max-w-[400px] h-[45px] bg-[#B0846A] text-[#FDFCFB] text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
   >
     Descubre qué hicimos en su estrategia.
@@ -62,7 +64,7 @@ const ThirdBlock = () => {
     {/* Imagen que cubre todo el contenedor */}
     <img
       className="w-full h-full  rounded-lg"
-      src="https://res.cloudinary.com/dytpump6i/image/upload/v1738466365/Disen%CC%83o_sin_ti%CC%81tulo_15_wsvquz.png" // Reemplaza con tu URL
+      src="https://res.cloudinary.com/dytpump6i/image/upload/v1738531067/Captura_de_Pantalla_2025-02-02_a_la_s_18.17.26_cei01t.png" // Reemplaza con tu URL
       alt="Imagen personalizada"
     />
   </div>

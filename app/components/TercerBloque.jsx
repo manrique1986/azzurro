@@ -14,7 +14,7 @@ const FourthBlock = () => {
           <div className="relative w-full h-full">
             <iframe
               className="w-full h-full rounded-lg"
-               src="https://res.cloudinary.com/dytpump6i/video/upload/v1738523526/Copy_of_testimonio_de_rodrigo_iiih3o.mp4"
+               src="https://www.youtube.com/embed/95AGfZdTzYM"
               
                title="YouTube video player"
             
@@ -34,7 +34,8 @@ const FourthBlock = () => {
 
   {/* Botón debajo del texto */}
   <Link
-    href="/page1"
+    href="https://calendly.com/agenciafbb/30min?month=2025-02"
+         target="_blank"
     className="w-full max-w-[400px] h-[45px] bg-[#B0846A] text-[#FDFCFB] text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
   >
   Cómo logramos resultados inmediatos.
@@ -54,7 +55,8 @@ const FourthBlock = () => {
 
   {/* Botón debajo del texto */}
   <a
-    href="/page2"
+    href="https://calendly.com/agenciafbb/30min?month=2025-02"
+         target="_blank"
     className="w-full max-w-[400px] h-[45px] bg-[#B0846A] text-[#FDFCFB] text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
   >
   Cómo simplificamos su éxito con IA.

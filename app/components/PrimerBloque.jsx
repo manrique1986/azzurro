@@ -31,7 +31,8 @@ const FirstBlock = () => {
   
         {/* Botón "Accede al drive personalizado" */}
         <a
-        
+        href="https://calendly.com/agenciafbb/30min?month=2025-02"
+         target="_blank"
           className="mt-6 w-full sm:w-[300px] md:w-[400px] lg:w-[900px]  text-center   lg:h-[45px] bg-[#B0846A] text-[#FDFCFB] text-lg font-semibold rounded-xl flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
         >
         Descubre cómo transformar tu negocio en una experiencia inolvidable.

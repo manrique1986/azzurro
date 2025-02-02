@@ -9,7 +9,8 @@ const SeptimoBloque = () => {
   
           {/* Botón */}
           <a
-            href="#"
+            href="https://calendly.com/agenciafbb/30min?month=2025-02"
+         target="_blank"
             className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-[#B0846A] text-white text-base sm:text-lg font-semibold rounded-full hover:bg-slate-500 transition-all duration-300 ease-in-out w-full sm:w-auto"
           >
            Quiero empezar

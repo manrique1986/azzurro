@@ -31,6 +31,8 @@ const QuintoBloque = () => {
             <div className="flex-grow" /> {/* Este div hace que el botón se empuje hacia abajo */}
             <div className="flex justify-center w-full">
               <a
+              href="https://calendly.com/agenciafbb/30min?month=2025-02"
+         target="_blank"
                 className="w-[250px] mb-5 sm:w-[280px] lg:w-[300px] h-[45px] bg-[#B0846A] text-white text-sm sm:text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
               >
                 Explora nuestro copywriting
@@ -53,6 +55,8 @@ const QuintoBloque = () => {
             <div className="flex-grow" /> {/* Este div hace que el botón se empuje hacia abajo */}
             <div className="flex justify-center w-full">
               <a
+              href="https://calendly.com/agenciafbb/30min?month=2025-02"
+         target="_blank"
                 className="w-[250px] mb-5 sm:w-[280px] lg:w-[300px] h-[45px] bg-[#B0846A] text-white text-sm sm:text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
               >
                 Descubre el poder de tus videos
@@ -75,6 +79,8 @@ const QuintoBloque = () => {
             <div className="flex-grow" /> {/* Este div hace que el botón se empuje hacia abajo */}
             <div className="flex justify-center w-full">
               <a
+              href="https://calendly.com/agenciafbb/30min?month=2025-02"
+         target="_blank"
                 className="w-[250px] mb-5 sm:w-[280px] lg:w-[300px] h-[45px] bg-[#B0846A] text-white text-sm sm:text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
               >
                 Crea impacto con tu contenido
