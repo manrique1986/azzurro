@@ -10,8 +10,8 @@ const ThirdBlock = () => {
           <div className="relative w-full h-full">
             <iframe
               className="w-full h-full rounded-lg"
-             
-            
+             src='https://www.youtube.com/embed/YUplHTnZFJc'
+            alt="victoria"
               frameBorder="0"
               allow=" autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
