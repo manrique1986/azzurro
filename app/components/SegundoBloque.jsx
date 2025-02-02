@@ -32,7 +32,7 @@ const ThirdBlock = () => {
          target="_blank"
     className="w-full max-w-[400px] h-[45px] bg-[#B0846A] text-[#FDFCFB] text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
   >
-    Conoce cómo optimizamos su conexión.
+    Conoce cómo optimizamos su conexión
   </Link>
 </div>
 
@@ -53,7 +53,7 @@ const ThirdBlock = () => {
          target="_blank"
     className="w-full max-w-[400px] h-[45px] bg-[#B0846A] text-[#FDFCFB] text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
   >
-    Descubre qué hicimos en su estrategia.
+    Descubre qué hicimos en su estrategia
   </a>
 </div>
 

@@ -26,16 +26,16 @@ const Testimonials = () => {
             <div className="flex items-center mb-4">
               <img
                 className="w-16 h-16 rounded-full object-cover mr-4"
-                 src="https://res.cloudinary.com/dytpump6i/image/upload/v1738465978/Juan_cruz_xowzov.jpg"
+                 src="https://res.cloudinary.com/dytpump6i/image/upload/v1738538760/WhatsApp_Image_2025-02-02_at_20.21.45_a6j1w1.jpg"
                 alt="Juan Cruz"
               />
               <div>
-                <h3 className="text-xl font-semibold text-[#1B3A4B]">Juan Cruz</h3>
-                <p className="text-sm text-[#1B3A4B]">Copy Mexicano</p>
+                <h3 className="text-xl font-semibold text-[#1B3A4B]">David </h3>
+                <p className="text-sm text-[#1B3A4B]">Content manager</p>
               </div>
             </div>
             <p className="text-xl font-semibold text-[#1B3A4B]">
-              En serio, qué buen trabajo con el GPT. Mis mensajes tienen mucho más impacto y no me toma nada de tiempo hacerlo.
+            Feli,probé el GpT y quedó muy rápido y fácil de usar, me ayudó mucho con las automatizaciones
             </p>
           </div>
   

@@ -38,7 +38,7 @@ const FourthBlock = () => {
          target="_blank"
     className="w-full max-w-[400px] h-[45px] bg-[#B0846A] text-[#FDFCFB] text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
   >
-  Cómo logramos resultados inmediatos.
+  Cómo logramos resultados inmediatos
   </Link>
 </div>
 
@@ -59,7 +59,7 @@ const FourthBlock = () => {
          target="_blank"
     className="w-full max-w-[400px] h-[45px] bg-[#B0846A] text-[#FDFCFB] text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
   >
-  Cómo simplificamos su éxito con IA.
+  Cómo simplificamos su éxito con IA
   </a>
 </div>
 

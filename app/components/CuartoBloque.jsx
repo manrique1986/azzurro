@@ -35,7 +35,7 @@ const CuartoBloque = () => {
          target="_blank"
             className="w-full sm:w-[300px] lg:w-[600px] h-[55px] sm:h-[50px] text-center bg-[#B0846A] text-[#FDFCFB] text-lg sm:text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
           >
-         Conoce cómo destacó sin depender de redes.
+         Conoce cómo destacó sin depender de redes
           </a>
         </div>
       </div>
@@ -73,7 +73,7 @@ const CuartoBloque = () => {
          target="_blank"
             className="w-full sm:w-[350px] lg:w-[600px] text-center h-[55px] sm:h-[50px] bg-[#B0846A] text-[#FDFCFB] text-lg sm:text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
           >
-         Descubre el camino de su evolución profesional.
+         Descubre el camino de su evolución profesional
           </a>
         </div>
       </div>
