@@ -64,7 +64,7 @@ const ThirdBlock = () => {
     {/* Imagen que cubre todo el contenedor */}
     <img
       className="w-full h-full  rounded-lg"
-      src="https://res.cloudinary.com/dytpump6i/image/upload/v1738531067/Captura_de_Pantalla_2025-02-02_a_la_s_18.17.26_cei01t.png" // Reemplaza con tu URL
+      src="https://res.cloudinary.com/dytpump6i/image/upload/v1738586574/WhatsApp_Image_2025-02-02_at_20.18.44_fwnk3l.jpg" // Reemplaza con tu URL
       alt="Imagen personalizada"
     />
   </div>
