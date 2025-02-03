@@ -35,7 +35,7 @@ const Testimonials = () => {
               </div>
             </div>
             <p className="text-xl font-semibold text-[#1B3A4B]">
-            Feli,probé el GpT y quedó muy rápido y fácil de usar, me ayudó mucho con las automatizaciones
+            Probé el GpT y quedó muy rápido y fácil de usar, me ayudó mucho con las automatizaciones
             </p>
           </div>
   
