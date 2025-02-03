@@ -6,6 +6,7 @@ import TercerBloque from "./components/TercerBloque.jsx"
 import SextoBloque from "./components/SextoBloque.jsx"
 import SeptimoBloque from "./components/SeptimoBloque.jsx";
 
+
 export default function Home() {
   return (
   <div>
@@ -16,6 +17,7 @@ export default function Home() {
     <QuintoBloque/>
     <SextoBloque/>
     <SeptimoBloque/>
+   
   </div>
   );
 }
