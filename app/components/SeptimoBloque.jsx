@@ -1,9 +1,10 @@
-import CalendlyWidget from "./Calendlywidget";
+// SeptimoBloque.jsx
+import CalendlyWidget from "./CalendlyWidget";
 
 const SeptimoBloque = () => {
   return (
-    <div className="w-full py-16 sm:py-24 flex justify-center items-center mt-32">
-      <div className="text-center px-6 w-full max-w-7xl"> {/* Aquí ajustamos el max-width para mayor control */}
+    <div id="septimo-bloque" className="w-full py-16 sm:py-24 flex justify-center items-center mt-32">
+      <div className="text-center px-6 w-full max-w-7xl">
         {/* Título */}
         <h2 className="text-xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#1B3A4B] mb-6 whitespace-nowrap">
           Formá parte de AZZURRO
@@ -28,3 +29,5 @@ const SeptimoBloque = () => {
 };
 
 export default SeptimoBloque;
+
+

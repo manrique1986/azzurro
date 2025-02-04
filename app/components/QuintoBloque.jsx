@@ -1,4 +1,15 @@
+"use client"; // Aseguramos que esto se ejecute en el cliente
+
 const QuintoBloque = () => {
+
+  // Función que maneja el scroll hacia el SeptimoBloque
+  const handleScroll = () => {
+    const element = document.getElementById("septimo-bloque"); // Busca el componente con id 'septimo-bloque'
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" }); // Realiza el scroll hasta el componente
+    }
+  };
+
   return (
     <div className="w-full px-4 sm:px-8 lg:px-24 mt-32">
       <div className="w-full flex justify-center items-center">
@@ -30,13 +41,12 @@ const QuintoBloque = () => {
             </p>
             <div className="flex-grow" /> {/* Este div hace que el botón se empuje hacia abajo */}
             <div className="flex justify-center w-full">
-              <a
-              href="https://calendly.com/agenciafbb/30min?month=2025-02"
-         target="_blank"
+              <button
+                onClick={handleScroll} // Llamada a handleScroll para hacer el desplazamiento
                 className="w-[250px] mb-5 sm:w-[280px] lg:w-[300px] h-[45px] bg-[#B0846A] text-white text-sm sm:text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
               >
                 Explora nuestro copywriting
-              </a>
+              </button>
             </div>
           </div>
 
@@ -54,13 +64,12 @@ const QuintoBloque = () => {
             </p>
             <div className="flex-grow" /> {/* Este div hace que el botón se empuje hacia abajo */}
             <div className="flex justify-center w-full">
-              <a
-              href="https://calendly.com/agenciafbb/30min?month=2025-02"
-         target="_blank"
+              <button
+                onClick={handleScroll} // Llamada a handleScroll para hacer el desplazamiento
                 className="w-[250px] mb-5 sm:w-[280px] lg:w-[300px] h-[45px] bg-[#B0846A] text-white text-sm sm:text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
               >
                 Descubre el poder de tus videos
-              </a>
+              </button>
             </div>
           </div>
 
@@ -78,13 +87,12 @@ const QuintoBloque = () => {
             </p>
             <div className="flex-grow" /> {/* Este div hace que el botón se empuje hacia abajo */}
             <div className="flex justify-center w-full">
-              <a
-              href="https://calendly.com/agenciafbb/30min?month=2025-02"
-         target="_blank"
+              <button
+                onClick={handleScroll} // Llamada a handleScroll para hacer el desplazamiento
                 className="w-[250px] mb-5 sm:w-[280px] lg:w-[300px] h-[45px] bg-[#B0846A] text-white text-sm sm:text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
               >
                 Crea impacto con tu contenido
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -94,5 +102,6 @@ const QuintoBloque = () => {
 };
 
 export default QuintoBloque;
+
 
   
