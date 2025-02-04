@@ -1,5 +1,5 @@
 // SeptimoBloque.jsx
-import CalendlyWidget from "./CalendlyWidget.jsx";
+import Calendly from "./Calendly.jsx";
 
 const SeptimoBloque = () => {
   return (
@@ -12,7 +12,7 @@ const SeptimoBloque = () => {
 
         {/* Calendly Widget */}
         <div className="mb-8">
-          <CalendlyWidget />
+          <Calendly />
         </div>
 
         {/* Botón */}
