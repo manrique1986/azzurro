@@ -1,5 +1,5 @@
 // SeptimoBloque.jsx
-import CalendlyWidget from "./CalendlyWidget.jsx";
+import CalendlyWidget from "./CalendlyWidget";
 
 const SeptimoBloque = () => {
   return (
