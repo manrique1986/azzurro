@@ -1,3 +1,4 @@
+// layout.js o layout.jsx
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/Footer";
@@ -21,11 +22,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen grid grid-rows-[1fr_auto]`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-cover bg-center relative`} // Usamos bg-cover para que la imagen cubra toda la pantalla
+        style={{
+          backgroundImage: "url('https://res.cloudinary.com/dytpump6i/image/upload/v1738718560/pexels-martin-de-arriba-25131490-8731613_w1078l.jpg')", // Ruta a la imagen que colocaste en la carpeta public
+          backgroundAttachment: "fixed", // Fija la imagen cuando se haga scroll (opcional)
+        }}
       >
         {/* Contenido principal */}
         <div>{children}</div>
-        
+
         {/* Footer */}
         <Footer />
       </body>

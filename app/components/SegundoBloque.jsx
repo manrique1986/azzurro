@@ -2,6 +2,12 @@
 
 import { useEffect } from 'react';
 
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 const ThirdBlock = () => {
 
   // Función que realiza el scroll al componente SeptimoBloque
@@ -15,7 +21,7 @@ const ThirdBlock = () => {
   return (
     <div className="w-full py-12">
       {/* Primer diseño: video a la izquierda y texto a la derecha */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-4">
+      <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-4">
         {/* Video a la izquierda */}
         <div className="w-full h-[200px] sm:h-[300px] md:h-[356.5px] px-4 md:px-8">
           <div className="relative w-full h-full">
@@ -48,7 +54,7 @@ const ThirdBlock = () => {
       </div>
 
       {/* Segundo diseño: video a la derecha y texto a la izquierda */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-8 px-4">
+      <div  className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-8 px-4" >
         {/* Texto a la izquierda */}
         <div className="text-left space-y-6 mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold text-[#1B3A4B]">@AFVIBESS</h2>
@@ -67,9 +73,10 @@ const ThirdBlock = () => {
 
         {/* Video a la derecha */}
         <div className="w-full h-[200px] sm:h-[300px] md:h-[356.5px] px-4 md:px-8">
-          <div className="relative w-full h-full">
+          <div  className="relative w-full h-full">
             {/* Imagen que cubre todo el contenedor */}
             <img
+            
               className="w-full h-full  rounded-lg"
               src="https://res.cloudinary.com/dytpump6i/image/upload/v1738586574/WhatsApp_Image_2025-02-02_at_20.18.44_fwnk3l.jpg"
               alt="Imagen personalizada"

@@ -15,7 +15,7 @@ const FourthBlock = () => {
   return (
     <div className="w-full py-12">
       {/* Primer diseño: video a la izquierda y texto a la derecha */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-4">
+      <div  className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-4">
         {/* Video a la izquierda */}
         <div className="w-full h-[200px] sm:h-[300px] md:h-[356.5px] px-4 md:px-8">
           <div className="relative w-full h-full">
