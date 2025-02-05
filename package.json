@@ -12,9 +12,7 @@
     "aos": "^3.0.0-beta.6",
     "next": "15.1.6",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-tsparticles": "^2.12.2",
-    "tsparticles": "^3.8.1"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

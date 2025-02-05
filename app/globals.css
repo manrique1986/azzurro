@@ -1,12 +1,15 @@
+/* @tailwind directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Variables globales */
 :root {
-
   --foreground: #171717;
+  --background: #D1D5DB; /* Fondo claro por defecto */
 }
 
+/* Modo oscuro */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -14,24 +17,3 @@
   }
 }
 
-body {
-  background-color: #D1D5DB;
-  margin: 0;
-  font-family: var(--font-geist-sans), sans-serif;
-}
-
-/* styles/globals.css */
-.bg-overlay {
-  position: relative;
-}
-
-.bg-overlay::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);  /* Fondo oscuro semitransparente */
-  z-index: -1;
-}
