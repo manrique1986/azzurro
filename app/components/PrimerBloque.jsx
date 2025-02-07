@@ -36,7 +36,7 @@ const FirstBlock = () => {
         <div className="relative w-full h-0" style={{ paddingBottom: "56.25%" }}>
           <iframe
             className="absolute top-0 left-0 w-full h-full rounded-xl"
-            src="https://www.youtube.com/embed/TXznNDSACcw"
+            src="https://www.youtube.com/embed/Pe1jFyMuNg4"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
