@@ -25,23 +25,23 @@ const ThirdBlock = () => {
   }
 
   return (
-    <div className="w-full py-12">
+    <div className="w-full py-12 mt-20">
       {/* Primer diseño: video a la izquierda y texto a la derecha */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-4">
         {/* Video a la izquierda */}
-        <div className="w-full h-[180px] sm:h-[250px] md:h-[300px] px-4 md:px-8">
-        <div className="relative w-full h-full">
-  <iframe
-    className="w-[40%] h-full rounded-lg mx-auto shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"  // Video más estrecho con sombra
-    src='https://www.youtube.com/embed/-zOk4Fosix4'
-    alt="victoria"
-    frameBorder="0"
-    allow=" autoplay; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-  ></iframe>
+        <div className="w-full h-[300px] sm:h-[500px] md:h-[300px] px-4 md:px-8">
+  <div className="relative w-full h-full flex justify-center items-center">
+    <iframe
+      className="w-full sm:w-[90%] md:w-[40%] h-full rounded-lg shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"
+      src='https://www.youtube.com/embed/-zOk4Fosix4'
+      alt="victoria"
+      frameBorder="0"
+      allow=" autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
 </div>
 
-        </div>
 
         {/* Texto a la derecha */}
         <div className="text-left space-y-6">
@@ -61,7 +61,7 @@ const ThirdBlock = () => {
       </div>
 
       {/* Segundo diseño: video a la derecha y texto a la izquierda */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-16 px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-20 px-4">
         {/* Texto a la izquierda */}
         <div className="text-left space-y-6 mx-auto">
           <h2 className="text-center lg:text-left text-4xl sm:text-5xl font-bold text-[#1B3A4B]">@AFVIBESS</h2>

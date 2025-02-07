@@ -27,7 +27,7 @@ const FirstBlock = () => {
   return (
     <div className="flex flex-col items-center justify-center p-4">
       {/* Titulo centrado */}
-      <h1 className="text-4xl text-[#1B3A4B] sm:text-5xl md:text-6xl lg:text-6xl font-bold text-center mb-8 w-8/12">
+      <h1 className="text-4xl text-[#1B3A4B] sm:text-5xl md:text-6xl lg:text-6xl font-bold text-center mb-8 lg:w-8/12">
         Estamos contigo, creamos lo eterno.
       </h1>
 

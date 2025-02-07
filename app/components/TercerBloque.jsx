@@ -25,22 +25,23 @@ const FourthBlock = () => {
   }
 
   return (
-    <div className="w-full py-12">
+    <div className="w-full py-12 mt-20">
       {/* Primer diseño: video a la izquierda y texto a la derecha */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-4">
         {/* Video a la izquierda */}
-        <div className="w-full h-[180px] sm:h-[250px] md:h-[350px] px-4 md:px-8">
-          <div className="relative w-full h-full">
-            <iframe
-              className="w-[40%] h-full rounded-lg mx-auto shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"  // Video con sombra
-              src="https://www.youtube.com/embed/95AGfZdTzYM"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
+        <div className="w-full h-[300px] sm:h-[500px] md:h-[300px] px-4 md:px-8">
+  <div className="relative w-full h-full flex justify-center items-center">
+    <iframe
+      className="w-[80%] sm:w-[70%] md:w-[40%] h-full rounded-lg shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"  // Video centrado con sombra
+      src="https://www.youtube.com/embed/95AGfZdTzYM"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
+
 
         {/* Texto a la derecha */}
         <div className="text-left space-y-6">
