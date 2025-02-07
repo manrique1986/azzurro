@@ -1,14 +1,28 @@
 "use client"; // Aseguramos que esto se ejecute en el cliente
 
+import { useEffect, useState } from 'react';
+
 const QuintoBloque = () => {
+  const [isClient, setIsClient] = useState(false);
+
+  // Se asegura de que el código que usa 'document' solo se ejecute en el cliente
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   // Función que maneja el scroll hacia el SeptimoBloque
   const handleScroll = () => {
-    const element = document.getElementById("septimo-bloque"); // Busca el componente con id 'septimo-bloque'
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" }); // Realiza el scroll hasta el componente
+    if (isClient) { // Solo ejecuta en el cliente
+      const element = document.getElementById("septimo-bloque"); // Busca el componente con id 'septimo-bloque'
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" }); // Realiza el scroll hasta el componente
+      }
     }
   };
+
+  if (!isClient) {
+    return null; // No renderiza el componente hasta que sea ejecutado en el cliente
+  }
 
   return (
     <div className="w-full px-4 sm:px-8 lg:px-24 mt-32">

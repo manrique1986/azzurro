@@ -1,21 +1,33 @@
 "use client"; // Aseguramos que esto se ejecute en el cliente
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 const FourthBlock = () => {
+  const [isClient, setIsClient] = useState(false);
+
+  // Se asegura de que el código que usa 'document' solo se ejecute en el cliente
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   // Función que maneja el scroll hasta el SeptimoBloque
   const handleScroll = () => {
-    const element = document.getElementById("septimo-bloque"); // Busca el componente con id 'septimo-bloque'
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" }); // Realiza el scroll hasta el componente
+    if (isClient) { // Solo ejecuta en el cliente
+      const element = document.getElementById("septimo-bloque"); // Busca el componente con id 'septimo-bloque'
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" }); // Realiza el scroll hasta el componente
+      }
     }
   };
+
+  if (!isClient) {
+    return null; // No renderiza el componente hasta que sea ejecutado en el cliente
+  }
 
   return (
     <div className="w-full py-12">
       {/* Primer diseño: video a la izquierda y texto a la derecha */}
-      <div  className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-4">
         {/* Video a la izquierda */}
         <div className="w-full h-[200px] sm:h-[300px] md:h-[356.5px] px-4 md:px-8">
           <div className="relative w-full h-full">
@@ -82,3 +94,4 @@ const FourthBlock = () => {
 };
 
 export default FourthBlock;
+

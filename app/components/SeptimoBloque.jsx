@@ -1,9 +1,8 @@
-"use client"
 
-import dynamic from "next/dynamic";
+import Calendly from './Calendly.jsx';
 
 // Cargamos el componente Calendly dinámicamente con ssr: false para evitar que se renderice en el servidor
-const Calendly = dynamic(() => import("./Calendly.jsx"), { ssr: false });
+
 
 const SeptimoBloque = () => {
   return (

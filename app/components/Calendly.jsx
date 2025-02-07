@@ -1,18 +1,31 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const CalendlyWidget = () => {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://assets.calendly.com/assets/external/widget.js";
-    script.async = true;
-    document.body.appendChild(script);
+  const [isClient, setIsClient] = useState(false);
 
-    return () => {
-      document.body.removeChild(script);
-    };
+  useEffect(() => {
+    // Verifica que el código solo se ejecute en el lado del cliente
+    setIsClient(true);
   }, []);
+
+  useEffect(() => {
+    if (isClient) {
+      const script = document.createElement("script");
+      script.src = "https://assets.calendly.com/assets/external/widget.js";
+      script.async = true;
+      document.body.appendChild(script);
+
+      return () => {
+        document.body.removeChild(script);
+      };
+    }
+  }, [isClient]);
+
+  if (!isClient) {
+    return null; // No renderiza el widget en el servidor
+  }
 
   return (
     <div

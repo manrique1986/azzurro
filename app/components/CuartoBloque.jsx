@@ -1,14 +1,28 @@
 "use client"; // Aseguramos que esto se ejecute en el cliente
 
+import { useEffect, useState } from 'react';
+
 const CuartoBloque = () => {
+  const [isClient, setIsClient] = useState(false);
+
+  // Se asegura de que el código que usa 'document' solo se ejecute en el cliente
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   // Función que maneja el scroll hacia el SeptimoBloque
   const handleScroll = () => {
-    const element = document.getElementById("septimo-bloque"); // Busca el componente con id 'septimo-bloque'
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" }); // Realiza el scroll hasta el componente
+    if (isClient) { // Solo ejecuta en el cliente
+      const element = document.getElementById("septimo-bloque"); // Busca el componente con id 'septimo-bloque'
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" }); // Realiza el scroll hasta el componente
+      }
     }
   };
+
+  if (!isClient) {
+    return null; // No renderiza el componente hasta que sea ejecutado en el cliente
+  }
 
   return (
     <div className="w-full px-4 sm:px-8 lg:px-24">
@@ -19,7 +33,7 @@ const CuartoBloque = () => {
           <div className="relative w-full lg:w-[450px] h-0" style={{ paddingBottom: '56.25%' }}> {/* Mantener relación 16:9 */}
             <iframe
               className="absolute top-0 left-0 w-full h-full rounded-lg"
-              src="https://res.cloudinary.com/dytpump6i/video/upload/v1738462993/Copy_of_testimonio_OCTAVIO_1_xzvaop.mp4" // Reemplaza VIDEO_ID_1 con el ID del primer video de YouTube
+              src="https://res.cloudinary.com/dytpump6i/video/upload/v1738462993/Copy_of_testimonio_OCTAVIO_1_xzvaop.mp4"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
@@ -54,7 +68,7 @@ const CuartoBloque = () => {
           <div className="relative w-full lg:w-[450px] h-0" style={{ paddingBottom: '56.25%' }}> {/* Mantener relación 16:9 */}
             <iframe
               className="absolute top-0 left-0 w-full h-full rounded-lg"
-              src="https://res.cloudinary.com/dytpump6i/video/upload/v1738462826/Copy_of_testimonio_de_angel_1_badipp.mp4" // Reemplaza VIDEO_ID_2 con el ID del segundo video de YouTube
+              src="https://res.cloudinary.com/dytpump6i/video/upload/v1738462826/Copy_of_testimonio_de_angel_1_badipp.mp4"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
@@ -86,3 +100,4 @@ const CuartoBloque = () => {
 };
 
 export default CuartoBloque;
+

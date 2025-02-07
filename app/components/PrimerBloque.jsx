@@ -1,15 +1,28 @@
 "use client"; // Esto indica que este archivo debe ejecutarse en el lado del cliente
 
-import { useRef } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const FirstBlock = () => {
+  const [isClient, setIsClient] = useState(false);
+
+  // Se asegura de que el código que usa 'document' solo se ejecute en el cliente
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   const handleScroll = () => {
-    const element = document.getElementById("septimo-bloque"); // Buscar el elemento por ID
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" }); // Hacer el scroll hacia el componente
+    if (isClient) { // Aseguramos que 'document' solo se use en el cliente
+      const element = document.getElementById("septimo-bloque");
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
     }
   };
+
+  if (!isClient) {
+    return null; // No renderiza el componente hasta que sea ejecutado en el cliente
+  }
 
   return (
     <div className="flex flex-col items-center justify-center p-4">
@@ -55,4 +68,5 @@ const FirstBlock = () => {
 };
 
 export default FirstBlock;
+
 
