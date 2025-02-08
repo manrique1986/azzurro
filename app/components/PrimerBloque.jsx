@@ -25,17 +25,20 @@ const FirstBlock = () => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center p-4">
+    <div  className="flex flex-col items-center justify-center p-4">
       {/* Titulo centrado */}
-      <h1 className="text-4xl text-[#1B3A4B] sm:text-5xl md:text-6xl lg:text-6xl font-bold text-center mb-8 lg:w-8/12">
+      <h1 data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  className="text-4xl text-[#1B3A4B] sm:text-5xl md:text-6xl lg:text-6xl font-bold text-center mb-8 lg:w-8/12">
         Estamos contigo, creamos lo eterno.
       </h1>
 
       {/* Primer Video embebido de YouTube */}
       <div className="mb-8 w-full max-w-3xl">
-        <div className="relative w-full h-0" style={{ paddingBottom: "56.25%" }}>
+        <div data-aos="fade-up"
+     data-aos-duration="3000" className="relative w-full h-0" style={{ paddingBottom: "56.25%" }}>
           <iframe
-            className="absolute top-0 left-0 w-full h-full rounded-xl"
+            className="absolute top-0 left-0 w-full h-full rounded-xl shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"
             src="https://www.youtube.com/embed/Pe1jFyMuNg4"
             title="YouTube video player"
             frameBorder="0"
@@ -46,7 +49,10 @@ const FirstBlock = () => {
       </div>
 
       {/* Párrafo explicativo */}
-      <p className="text-center text-base sm:text-lg lg:text-xl text-[#1B3A4B] mx-auto leading-relaxed">
+      <p data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500" className="text-center text-base sm:text-lg lg:text-xl text-[#1B3A4B] mx-auto leading-relaxed">
         En Azzurro, diseñamos estrategias personalizadas para optimizar tus ventas,
         <br />
         fidelizar a tus clientes y transformar cada interacción en una experiencia

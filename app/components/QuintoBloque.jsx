@@ -42,7 +42,7 @@ const QuintoBloque = () => {
       <div className="mt-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
           {/* Primer bloque */}
-          <div className="flex flex-col items-center space-y-4 bg-white p-1 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div data-aos="zoom-out-left" className="flex flex-col items-center space-y-4 bg-white p-1 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
             {/* Imagen en lugar de video */}
             <img
               className="w-full h-[250px] object-cover rounded-xl"
@@ -65,7 +65,8 @@ const QuintoBloque = () => {
           </div>
 
           {/* Segundo bloque */}
-          <div className="flex flex-col items-center space-y-4 bg-white p-1 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" className="flex flex-col items-center space-y-4 bg-white p-1 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
             {/* Imagen en lugar de video */}
             <img
               className="w-full h-[250px] object-cover rounded-xl"
@@ -88,7 +89,7 @@ const QuintoBloque = () => {
           </div>
 
           {/* Tercer bloque */}
-          <div className="flex flex-col items-center space-y-4 bg-white p-1 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div data-aos="zoom-in-right" className="flex flex-col items-center space-y-4 bg-white p-1 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
             {/* Imagen en lugar de video */}
             <img
               className="w-full h-[250px] object-cover rounded-xl"

@@ -29,19 +29,21 @@ const FourthBlock = () => {
       {/* Primer diseño: video a la izquierda y texto a la derecha */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-4">
         {/* Video a la izquierda */}
-        <div className="w-full h-[300px] sm:h-[500px] md:h-[300px] px-4 md:px-8">
-  <div className="relative w-full h-full flex justify-center items-center">
-    <iframe
-      className="w-[80%] sm:w-[70%] md:w-[40%] h-full rounded-lg shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"  // Video centrado con sombra
-      src="https://www.youtube.com/embed/95AGfZdTzYM"
-      title="YouTube video player"
-      frameBorder="0"
-      allow="encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    ></iframe>
-  </div>
-</div>
-
+        <div
+          data-aos="fade-up" // Animación de desvanecimiento hacia arriba
+          className="w-full h-[300px] sm:h-[500px] md:h-[300px] px-4 md:px-8"
+        >
+          <div className="relative w-full h-full flex justify-center items-center lg:ml-24">
+            <iframe
+              className="w-[80%] sm:w-[70%] md:w-[40%] h-full rounded-lg shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"  // Video centrado con sombra
+              src="https://www.youtube.com/embed/95AGfZdTzYM"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
 
         {/* Texto a la derecha */}
         <div className="text-left space-y-6">
@@ -79,10 +81,14 @@ const FourthBlock = () => {
         </div>
 
         {/* Video a la derecha */}
-        <div className="w-full h-[180px] sm:h-[250px] md:h-[300px] px-4 md:px-8">
+        <div
+          data-aos="fade-left" // Animación de desvanecimiento hacia la izquierda
+          className="w-full h-[180px] sm:h-[250px] md:h-[300px] px-4 md:px-8"
+        >
           <div className="relative w-full h-full">
             {/* Imagen con sombra */}
             <img
+              data-aos="fade-up" // Animación de desvanecimiento hacia arriba
               className="w-[90%] h-full object-cover rounded-lg mx-auto shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"  // Imagen con sombra
               src="https://res.cloudinary.com/dytpump6i/image/upload/v1738463604/Sansucces_eiipvh.jpg"
               alt="Imagen personalizada"
@@ -95,6 +101,7 @@ const FourthBlock = () => {
 };
 
 export default FourthBlock;
+
 
 
 

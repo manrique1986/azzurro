@@ -4,7 +4,7 @@ const Testimonials = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-center  ">
           
           {/* Testimonial 1 - Más grande */}
-          <div className="flex flex-col justify-center items-center bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 h-[350px]">
+          <div data-aos="zoom-in" className="flex flex-col justify-center items-center bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 h-[350px]">
             <div className="flex items-center mb-4">
               <img
                 className="w-16 h-16 rounded-full object-cover mr-4"
@@ -22,7 +22,7 @@ const Testimonials = () => {
           </div>
           
           {/* Testimonial 2 - Medio tamaño */}
-          <div className="flex flex-col justify-center items-center bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 h-[300px]">
+          <div data-aos="zoom-in-up" className="flex flex-col justify-center items-center bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 h-[300px]">
             <div className="flex items-center mb-4">
               <img
                 className="w-16 h-16 rounded-full object-cover mr-4"
@@ -40,7 +40,7 @@ const Testimonials = () => {
           </div>
   
           {/* Testimonial 3 - Más pequeño */}
-          <div className="flex flex-col justify-center items-center bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 h-[250px]">
+          <div data-aos="zoom-in-down" className="flex flex-col justify-center items-center bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 h-[250px]">
             <div className="flex items-center mb-4">
               <img
                 className="w-16 h-16 rounded-full object-cover mr-4"

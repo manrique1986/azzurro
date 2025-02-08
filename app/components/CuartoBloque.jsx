@@ -30,18 +30,18 @@ const CuartoBloque = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-8">
         {/* Video a la izquierda */}
         <div className="flex justify-center items-center">
-  <div className="relative w-[60%] sm:w-[60%] lg:w-[300px] h-[300px]" style={{ paddingBottom: '56.25%' }}> {/* Mantener relación 16:9 */}
-    <iframe
-      className="absolute top-0 left-0 w-full h-full rounded-lg shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"  // Video con sombra
-      src="https://res.cloudinary.com/dytpump6i/video/upload/v1738462993/Copy_of_testimonio_OCTAVIO_1_xzvaop.mp4"
-      title="YouTube video player"
-      frameBorder="0"
-      allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    ></iframe>
-  </div>
-</div>
-
+          <div className="relative w-[60%] sm:w-[60%] lg:w-[300px] h-[300px]" style={{ paddingBottom: '56.25%' }}> {/* Mantener relación 16:9 */}
+            <iframe
+              data-aos="zoom-in-up"  // Animación: zoom-in-up
+              className="absolute top-0 left-0 w-full h-full rounded-lg shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"  // Video con sombra
+              src="https://res.cloudinary.com/dytpump6i/video/upload/v1738462993/Copy_of_testimonio_OCTAVIO_1_xzvaop.mp4"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
 
         {/* Título y párrafo a la derecha */}
         <div className="text-left space-y-4 mt-8 lg:mt-0">
@@ -66,18 +66,18 @@ const CuartoBloque = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-16">
         {/* Video a la derecha */}
         <div className="flex justify-center items-center">
-  <div className="relative w-[60%] sm:w-[60%] lg:w-[300px] h-[300px]" style={{ paddingBottom: '56.25%' }}> {/* Mantener relación 16:9 */}
-    <iframe
-      className="absolute top-0 left-0 w-full h-full rounded-lg shadow-[30px_16px_35px_rgba(27,58,75,0.5)]" // Video con sombra
-      src="https://res.cloudinary.com/dytpump6i/video/upload/v1738462826/Copy_of_testimonio_de_angel_1_badipp.mp4"
-      title="Video de testimonio"
-      frameBorder="0"
-      allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    ></iframe>
-  </div>
-</div>
-
+          <div className="relative w-[60%] sm:w-[60%] lg:w-[300px] h-[300px]" style={{ paddingBottom: '56.25%' }}> {/* Mantener relación 16:9 */}
+            <iframe
+              data-aos="zoom-in-down"  // Animación: zoom-in-down
+              className="absolute top-0 left-0 w-full h-full rounded-lg shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"  // Video con sombra
+              src="https://res.cloudinary.com/dytpump6i/video/upload/v1738462826/Copy_of_testimonio_de_angel_1_badipp.mp4"
+              title="Video de testimonio"
+              frameBorder="0"
+              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
 
         {/* Título y párrafo a la izquierda */}
         <div className="text-left space-y-4 mt-8 lg:mt-0">
@@ -102,6 +102,7 @@ const CuartoBloque = () => {
 };
 
 export default CuartoBloque;
+
 
 
 
