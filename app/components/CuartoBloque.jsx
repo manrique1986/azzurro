@@ -82,10 +82,10 @@ const CuartoBloque = () => {
         {/* Título y párrafo a la izquierda */}
         <div className="text-left space-y-4 mt-8 lg:mt-0">
           <h2 className="text-center lg:text-left text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#1B3A4B]">
-            @HECTOR
+            @ANGEL
           </h2>
           <p className="text-center lg:text-left text-lg sm:text-xl lg:text-2xl text-[#1B3A4B] w-full sm:w-[350px] lg:w-[700px]">
-            Estamos orgullosos de Héctor, parte esencial del equipo, a quien ayudamos a crecer profesional y estratégicamente, impulsando su impacto en cada proyecto.
+            Estamos orgullosos de Angel, parte esencial del equipo, a quien ayudamos a crecer profesional y estratégicamente, impulsando su impacto en cada proyecto.
           </p>
 
           {/* Botón que hace scroll */}
