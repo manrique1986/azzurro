@@ -42,7 +42,7 @@ const ThirdBlock = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-4">
         {/* Video a la izquierda */}
         <div
-          data-aos="fade-right" // Animación de desvanecimiento desde la derecha
+          data-aos="fade-down-right" // Animación de desvanecimiento desde la derecha
           className="w-full h-[300px] sm:h-[500px] md:h-[300px] px-4 md:px-8"
         >
           <div className="relative w-full h-full flex justify-center items-center lg:ml-24">
@@ -59,7 +59,7 @@ const ThirdBlock = () => {
         </div>
 
         {/* Texto a la derecha */}
-        <div className="text-left space-y-6">
+        <div data-aos="fade-left" className="text-left space-y-6">
           <h2 className="text-center lg:text-left text-4xl sm:text-5xl font-bold text-[#1B3A4B]">
             @VICTORIA ROSA
           </h2>
@@ -78,7 +78,9 @@ const ThirdBlock = () => {
       </div>
 
       {/* Segundo diseño: video a la derecha y texto a la izquierda */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-20 px-4">
+      <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-20 px-4">
         {/* Texto a la izquierda */}
         <div className="text-left space-y-6 mx-auto">
           <h2 className="text-center lg:text-left text-4xl sm:text-5xl font-bold text-[#1B3A4B]">
@@ -99,7 +101,7 @@ const ThirdBlock = () => {
 
         {/* Video a la derecha */}
         <div
-          data-aos="fade-left" // Animación de desvanecimiento desde la izquierda
+          data-aos="fade-down-left" // Animación de desvanecimiento desde la izquierda
           className="w-full h-[250px] sm:h-[250px] md:h-[300px] px-4 md:px-8"
         >
           <div className="relative w-full h-full">
