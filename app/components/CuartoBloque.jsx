@@ -32,7 +32,7 @@ const CuartoBloque = () => {
         <div className="flex justify-center items-center">
           <div className="relative w-[60%] sm:w-[60%] lg:w-[300px] h-[300px]" style={{ paddingBottom: '56.25%' }}> {/* Mantener relación 16:9 */}
             <iframe
-              data-aos="fade-down-right"  // Animación: zoom-in-up
+              data-aos="fade-right" // Animación: zoom-in-up
               className="absolute top-0 left-0 w-full h-full rounded-lg shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"  // Video con sombra
               src="https://res.cloudinary.com/dytpump6i/video/upload/v1738462993/Copy_of_testimonio_OCTAVIO_1_xzvaop.mp4"
               title="YouTube video player"
@@ -44,10 +44,7 @@ const CuartoBloque = () => {
         </div>
 
         {/* Título y párrafo a la derecha */}
-        <div data-aos="fade-left"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="500" className="text-left space-y-4 mt-8 lg:mt-0">
+        <div data-aos="fade-left" className="text-left space-y-4 mt-8 lg:mt-0">
           <h2 className="text-center lg:text-left text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#1B3A4B]">
             @OCTAVIO
           </h2>
@@ -71,7 +68,7 @@ const CuartoBloque = () => {
         <div className="flex justify-center items-center">
           <div className="relative w-[60%] sm:w-[60%] lg:w-[300px] h-[300px]" style={{ paddingBottom: '56.25%' }}> {/* Mantener relación 16:9 */}
             <iframe
-             data-aos="fade-down-right"  // Animación: zoom-in-down
+             data-aos="fade-right"  // Animación: zoom-in-down
               className="absolute top-0 left-0 w-full h-full rounded-lg shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"  // Video con sombra
               src="https://res.cloudinary.com/dytpump6i/video/upload/v1738462826/Copy_of_testimonio_de_angel_1_badipp.mp4"
               title="Video de testimonio"
@@ -83,10 +80,7 @@ const CuartoBloque = () => {
         </div>
 
         {/* Título y párrafo a la izquierda */}
-        <div data-aos="fade-left"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="500" className="text-left space-y-4 mt-8 lg:mt-0">
+        <div data-aos="fade-left" className="text-left space-y-4 mt-8 lg:mt-0">
           <h2 className="text-center lg:text-left text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#1B3A4B]">
             @ANGEL
           </h2>

@@ -78,11 +78,9 @@ const ThirdBlock = () => {
       </div>
 
       {/* Segundo diseño: video a la derecha y texto a la izquierda */}
-      <div data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-20 px-4">
+      <div   data-aos="fade-right" className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-20 px-4">
         {/* Texto a la izquierda */}
-        <div className="text-left space-y-6 mx-auto">
+        <div   className="text-left space-y-6 mx-auto">
           <h2 className="text-center lg:text-left text-4xl sm:text-5xl font-bold text-[#1B3A4B]">
             @AFVIBESS
           </h2>
@@ -101,12 +99,14 @@ const ThirdBlock = () => {
 
         {/* Video a la derecha */}
         <div
-          data-aos="fade-down-left" // Animación de desvanecimiento desde la izquierda
+     
+         // Animación de desvanecimiento desde la izquierda
           className="w-full h-[250px] sm:h-[250px] md:h-[300px] px-4 md:px-8"
         >
-          <div className="relative w-full h-full">
+          <div      data-aos="fade-left" className="relative w-full h-full">
             <img
-              data-aos="fade-up" // Animación de desvanecimiento hacia arriba
+          
+              // Animación de desvanecimiento hacia arriba
               className="w-[90%] h-full rounded-lg mx-auto shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"
               src="https://res.cloudinary.com/dytpump6i/image/upload/v1738586574/WhatsApp_Image_2025-02-02_at_20.18.44_fwnk3l.jpg"
               alt="Imagen personalizada"

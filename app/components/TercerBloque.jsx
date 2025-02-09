@@ -30,7 +30,7 @@ const FourthBlock = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-4">
         {/* Video a la izquierda */}
         <div
-          data-aos="fade-down-right" // Animación de desvanecimiento hacia arriba
+       data-aos="fade-right" // Animación de desvanecimiento hacia arriba
           className="w-full h-[300px] sm:h-[500px] md:h-[300px] px-4 md:px-8"
         >
           <div className="relative w-full h-full flex justify-center items-center lg:ml-24">
@@ -46,10 +46,7 @@ const FourthBlock = () => {
         </div>
 
         {/* Texto a la derecha */}
-        <div  data-aos="fade-left"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="500" className="text-left space-y-6">
+        <div  data-aos="fade-left" className="text-left space-y-6">
           <h2 className="text-center lg:text-left text-4xl sm:text-5xl font-bold text-[#1B3A4B]">@RODRI MARQUEZ</h2>
           <p className="text-center lg:text-left text-lg sm:text-xl text-[#1B3A4B] max-w-[480px] sm:max-w-[500px] leading-relaxed">
             Diseñamos su estrategia completa y con el primer video atrajo dos clientes nuevos.
@@ -68,9 +65,7 @@ const FourthBlock = () => {
       {/* Segundo diseño: video a la derecha y texto a la izquierda */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-8 px-4">
         {/* Texto a la izquierda */}
-        <div data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" className="text-left space-y-6 mx-auto">
+        <div data-aos="fade-right" className="text-left space-y-6 mx-auto">
           <h2 className="text-center lg:text-left text-4xl sm:text-5xl font-bold text-[#1B3A4B]">@SANSUCESS</h2>
           <p className="text-center lg:text-left text-lg sm:text-xl text-[#1B3A4B] max-w-[480px] sm:max-w-[500px] leading-relaxed">
             Optimizamos su oferta y automatizamos su proceso de ventas con IA.
@@ -87,13 +82,13 @@ const FourthBlock = () => {
 
         {/* Video a la derecha */}
         <div
-          data-aos="fade-down-left" // Animación de desvanecimiento hacia la izquierda
+         data-aos="fade-left" // Animación de desvanecimiento hacia la izquierda
           className="w-full h-[180px] sm:h-[250px] md:h-[300px] px-4 md:px-8"
         >
           <div className="relative w-full h-full">
             {/* Imagen con sombra */}
             <img
-              data-aos="fade-up" // Animación de desvanecimiento hacia arriba
+          // Animación de desvanecimiento hacia arriba
               className="w-[90%] h-full object-cover rounded-lg mx-auto shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"  // Imagen con sombra
               src="https://res.cloudinary.com/dytpump6i/image/upload/v1738463604/Sansucces_eiipvh.jpg"
               alt="Imagen personalizada"
