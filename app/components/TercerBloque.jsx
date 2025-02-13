@@ -30,7 +30,7 @@ const FourthBlock = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-4">
         {/* Video a la izquierda */}
         <div
-       data-aos="fade-right" // Animación de desvanecimiento hacia arriba
+          data-aos="fade-right" // Animación de desvanecimiento hacia arriba
           className="w-full h-[300px] sm:h-[500px] md:h-[300px] px-4 md:px-8"
         >
           <div className="relative w-full h-full flex justify-center items-center lg:ml-24">
@@ -46,7 +46,7 @@ const FourthBlock = () => {
         </div>
 
         {/* Texto a la derecha */}
-        <div  data-aos="fade-left" className="text-left space-y-6">
+        <div data-aos="fade-left" className="text-left space-y-6">
           <h2 className="text-center lg:text-left text-4xl sm:text-5xl font-bold text-[#1B3A4B]">@RODRI MARQUEZ</h2>
           <p className="text-center lg:text-left text-lg sm:text-xl text-[#1B3A4B] max-w-[480px] sm:max-w-[500px] leading-relaxed">
             Diseñamos su estrategia completa y con el primer video atrajo dos clientes nuevos.
@@ -66,9 +66,9 @@ const FourthBlock = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-8 px-4">
         {/* Texto a la izquierda */}
         <div data-aos="fade-right" className="text-left space-y-6 mx-auto">
-          <h2 className="text-center lg:text-left text-4xl sm:text-5xl font-bold text-[#1B3A4B]">@SANSUCESS</h2>
+          <h2 className="text-center lg:text-left text-4xl sm:text-5xl font-bold text-[#1B3A4B]">@THEO</h2>
           <p className="text-center lg:text-left text-lg sm:text-xl text-[#1B3A4B] max-w-[480px] sm:max-w-[500px] leading-relaxed">
-            Optimizamos su oferta y automatizamos su proceso de ventas con IA.
+            Ayudamos a captar clientes con un sistema de afiliados simple
           </p>
 
           {/* Botón que hace scroll */}
@@ -76,31 +76,35 @@ const FourthBlock = () => {
             onClick={handleScroll} // Llamada a handleScroll para realizar el desplazamiento
             className="w-full max-w-[400px] h-[45px] bg-[#B0846A] text-[#FDFCFB] text-lg font-semibold rounded-full flex items-center justify-center hover:bg-zinc-700 transition-colors duration-300"
           >
-            Cómo simplificamos su éxito con IA
+            Cómo hacerlo
           </button>
         </div>
 
         {/* Video a la derecha */}
         <div
-         data-aos="fade-left" // Animación de desvanecimiento hacia la izquierda
-          className="w-full h-[180px] sm:h-[250px] md:h-[300px] px-4 md:px-8"
-        >
-          <div className="relative w-full h-full">
-            {/* Imagen con sombra */}
-            <img
-          // Animación de desvanecimiento hacia arriba
-              className="w-[90%] h-full object-cover rounded-lg mx-auto shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"  // Imagen con sombra
-              src="https://res.cloudinary.com/dytpump6i/image/upload/v1738463604/Sansucces_eiipvh.jpg"
-              alt="Imagen personalizada"
-            />
-          </div>
-        </div>
+  data-aos="fade-left" // Animación de desvanecimiento hacia la izquierda
+  className="w-full h-[300px] sm:h-[550px] md:h-[300px] px-4 md:px-8 flex justify-center" // Usamos flex y justify-center para centrar el video
+>
+  <div className="relative w-[60%] sm:w-[60%] lg:w-[300px] h-[300px]" style={{ paddingBottom: '56.25%' }}>
+    {/* Video con sombra */}
+    <iframe
+      className="absolute top-0 left-0 w-full h-full rounded-lg shadow-[30px_16px_35px_rgba(27,58,75,0.5)]"  // Video con sombra
+      src="https://res.cloudinary.com/dytpump6i/video/upload/v1739487426/mi_testimonio_azzurro_ym8ao5.mp4"
+      title="Video testimonial"
+      frameBorder="0"
+      allow="encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
+
       </div>
     </div>
   );
 };
 
 export default FourthBlock;
+
 
 
 
