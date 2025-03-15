@@ -28,15 +28,19 @@ const CalendlyWidget = () => {
   }
 
   return (
-    <div
-      className="calendly-inline-widget"
-      data-url="https://calendly.com/agenciafbb/30min?background_color=fdfcfb&text_color=b0846a&primary_color=1b3a4b"
-      style={{ minWidth: "320px", height: "700px" }}
-    ></div>
+    <div>
+      {/* Calendly Inline Widget */}
+      <div
+        className="calendly-inline-widget"
+        data-url="https://calendly.com/agenciafbb/60min"
+        style={{ minWidth: "320px", height: "700px" }}
+      ></div>
+    </div>
   );
 };
 
 export default CalendlyWidget;
+
 
 
 
